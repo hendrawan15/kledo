@@ -7,4 +7,5 @@ langkah-langkah menggunakan aplikasi
 4. selanjutnya buat database dari mysql dan di file.env diarahkan ke database yang telah dibuat
 5. selanjutnya jalankan perintah di cmd dengan ketikkan "php artisan migrate --seed"
 6. selanjutnya ujicoba setiap api yg berada dilokasi localhost://namaproject/api/namaroute
-7. selanjutnya untuk menjalankan unit testnya bisa mengetikkan "php artisan test" dicmd
+7. untuk ujicoba api disetujui-massal sebelumnya di cmd ketikkan "php artisan queue:work" lalu dijalankan apinya
+8. selanjutnya untuk menjalankan unit testnya bisa mengetikkan "php artisan test" dicmd
